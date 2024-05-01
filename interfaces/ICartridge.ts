@@ -10,4 +10,7 @@ export interface ICartridge {
   console: string;
   conservation_status: ConservationStatusEnum;
   cover_url?: string;
+  quantity?: number;
+  price?: number;
+  made_in_mari?: boolean;
 }
